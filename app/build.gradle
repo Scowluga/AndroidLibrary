@@ -24,7 +24,16 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+
+
+    // CircularFloatingActionMenu: https://github.com/oguzbilgener/CircularFloatingActionMenu
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
+
+    // TapTargetView: https://github.com/KeepSafe/TapTargetView
+    compile 'com.getkeepsafe.taptargetview:taptargetview:1.9.1'
+
     compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:23.0.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha9'
     testCompile 'junit:junit:4.12'
 }
