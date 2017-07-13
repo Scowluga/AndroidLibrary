@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AndroidLibrary</string>
+
+    <string-array name="roomNumbers">
+        <item>Scowluga</item>
+        <item>120</item>
+    </string-array>
 </resources>
